@@ -17,6 +17,9 @@
 - T-056 Remove need to sign-in to access the app · created:2026-10-29
 - T-057 Create "about me" textarea in the profile page · created:2026-10-29
 - T-058 Add locale and language configuration · created:2026-10-29
+  - T-175 Add native language preference (eg. BR or PT)
+  - T-176 Add English locale preference (eg. US or UK)
+  - T-177 Add time zone preference
 - T-059 Add native language preference (eg. BR or PT) · created:2026-10-29
 - T-060 Add English locale preference (eg. US or UK) · created:2026-10-29
 - T-061 Add time zone preference · created:2026-10-29
@@ -63,10 +66,16 @@
 - T-099 Pass user name to Stripe from Google account · pri:low · created:2026-10-29
 - T-100 Improve toast animations and width · pri:low · created:2026-10-29
 - T-101 Improve error handling · pri:low · created:2026-10-29
+  - T-178 Improve common error fallback to be more customizable, eg. contact fetching error
+  - T-179 Improve sidebar error handling using AsyncComponentOptions.onError
+  - T-180 Fix error handling in the API endpoints fetched using form
 - T-102 Improve common error fallback to be more customizable, eg. contact fetching error · pri:low · created:2026-10-29
 - T-103 Improve sidebar error handling using \`AsyncComponentOptions.onError\` · pri:low · created:2026-10-29
 - T-104 Fix error handling in the API endpoints fetched using form · pri:low · created:2026-10-29
 - T-105 Improve loading handling · pri:low · created:2026-10-29
+  - T-181 Add loading splashscreen for hydration, data loading, etc
+  - T-182 Improve chat loading by rendering the skeleton on the backend and the message on the client
+  - T-183 Improve chat loading and error state fallbacks
 - T-106 Add loading splashscreen for hydration, data loading, etc · pri:low · created:2026-10-29
 - T-107 Improve chat loading by rendering the skeleton on the backend and the message on the client · pri:low · created:2026-10-29
 - T-108 Improve chat loading and error state fallbacks · pri:low · created:2026-10-29
@@ -94,12 +103,18 @@
 - T-121 List open source licenses · pri:low · created:2026-10-29
 - T-122 Add automatic informing Thal changed (specially terms or privacy) via email · pri:low · created:2026-10-29
 - T-123 Handle Gemini safety errors · pri:low · created:2026-10-29
+  - T-184 Provide feedback indicating that the sending message is not allowed.
+  - T-185 Provide feedback indicating that the receiving message is not allowed, and allow users to request a safer regeneration from the model.
+  - T-186 Provide feedback and allow users to revise their character content.
+  - T-187 Add a link to the community guidelines (in the Terms) in the "Character Builder," chats, and settings.
+  - T-188 Give safety feedback on fields
 - T-124 Provide feedback indicating that the sending message is not allowed. · pri:low · created:2026-10-29
 - T-125 Provide feedback indicating that the receiving message is not allowed, and allow users to request a safer regeneration from the model. · pri:low · created:2026-10-29
 - T-126 Provide feedback and allow users to revise their character content. · pri:low · created:2026-10-29
 - T-127 Add a link to the community guidelines (in the Terms) in the "Character Builder," chats, and settings. · pri:low · created:2026-10-29
 - T-128 Give safety feedback on fields · pri:low · created:2026-10-29
 - T-129 Add safety inflation flags and strikes · pri:low · created:2026-10-29
+  - T-189 Assigning each user a unique ID and imposing a limit on the volume of user queries that can be submitted in a given period
 - T-130 Assigning each user a unique ID and imposing a limit on the volume of user queries that can be submitted in a given period · pri:low · created:2026-10-29
 - T-131 Add character rating (unrated, teen, mature, everyone) · pri:low · created:2026-10-29
 
@@ -147,8 +162,10 @@
 - T-165 Use inferred schemas as DTOs · pri:low · created:2026-10-29
 - T-166 Remove unused files/code · pri:low · created:2026-10-29
 - T-167 Improve docs · pri:low · created:2026-10-29
+  - T-190 Add docs for the difference between roadmap, changelog and "What's New"
 - T-168 Add docs for the difference between roadmap, changelog and "What's New" · pri:low · created:2026-10-29
 - T-169 Add nuxt devserver to delphis container · pri:low · created:2026-10-29
+  - T-191 Pass IS\_DELPHIS env var to nuxt devserver and fix sign-in redirect to dev.thal.9aia.com
 - T-170 Pass IS\_DELPHIS env var to nuxt devserver and fix sign-in redirect to dev.thal.9aia.com · pri:low · created:2026-10-29
 - T-171 Fix delphis perms · pri:low · created:2026-10-29
 - T-172 Fix delphis checking of multiple co-authors already included in the commit message · pri:low · created:2026-10-29
