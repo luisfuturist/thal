@@ -6,13 +6,13 @@
 ## 0.2.0-2 - Focus mode message analysis
 
 - [ ] T-003 Improve analysis prompting (it's not working for fantasy, not considering politeness as well) · created:2026-10-29
-  - [ ] T-047 Summary should not focus on "remove this, add that" but on the actual changes in a generic/overview way, like "found typos..."
+  - [ ] T-192 Summary should not focus on "remove this, add that" but on the actual changes in a generic/overview way, like "found typos..."
 - [ ] T-004 Summary should not focus on "remove this, add that" but on the actual changes in a generic/overview way, like "found typos..." · created:2026-10-29
 - [ ] T-005 Improve the explanation prompting · created:2026-10-29
 - [ ] T-006 Add focus mode to the message analysis modal · created:2026-10-29
-  - [ ] T-048 Focus in that particular wavy underline part of the message and pass it to the assistant (it will be able to understand if the that part is associated with other parts as well!)
-  - [ ] T-049 Explain the mistake and why it's wrong
-  - [ ] T-050 Add "Ignore this mistake" button
+  - [ ] T-193 Focus in that particular wavy underline part of the message and pass it to the assistant (it will be able to understand if the that part is associated with other parts as well!)
+  - [ ] T-194 Explain the mistake and why it's wrong
+  - [ ] T-195 Add "Ignore this mistake" button
 - [ ] T-007 Focus in that particular wavy underline part of the message and pass it to the assistant (it will be able to understand if the that part is associated with other parts as well!) · created:2026-10-29
 - [ ] T-008 Explain the mistake and why it's wrong · created:2026-10-29
 - [ ] T-009 Add "Ignore this mistake" button · created:2026-10-29
@@ -30,7 +30,7 @@
 
 - [ ] T-016 Add feature to generate (more) examples of the incorrect-correct pairs · created:2026-10-29
 - [ ] T-027 Save translations in the database (it will be useful for analytics and be used to improve the translation quality) · created:2026-10-29
-  - [ ] T-052 Refactor translate endpoint into /api/message/translate with messageId param?
+  - [ ] T-196 Refactor translate endpoint into /api/message/translate with messageId param?
 - [ ] T-028 Refactor translate endpoint into \`/api/message/translate\` with \`messageId\` param? · created:2026-10-29
 - [ ] T-029 Add \[hint mode]\(./notes/hint.md) · created:2026-10-29
 - [ ] T-030 Allow users to see the translation on a popover by selecting a text/word on the message, also below the translation the user can COPY, LISTEN · created:2026-10-29
@@ -41,7 +41,7 @@
 - [ ] T-017 Force test with ton of characters, chats, contacts and messages · created:2026-10-29
 - [ ] T-018 Virtual scroll for chats, messages and discover · created:2026-10-29
 - [ ] T-019 Improve SEO, robots.txt, meta tags, etc · created:2026-10-29
-  - [ ] T-051 Fix character seo tags
+  - [ ] T-197 Fix character seo tags
 - [ ] T-020 Fix character seo tags · created:2026-10-29
 - [ ] T-021 Add infinite queries to lists (specially chat) · created:2026-10-29
 - [ ] T-022 Deal with long history on translate · created:2026-10-29
@@ -56,8 +56,8 @@
 ## 0.4.0 - Language Assistance Improvements
 
 - [ ] T-032 Add text input correction confirmation popover · created:2026-10-29
-  - [ ] T-053 Diffing
-  - [ ] T-054 Actions: "Regenerate", "Explain", "Apply", "Ignore"
+  - [ ] T-198 Diffing
+  - [ ] T-199 Actions: "Regenerate", "Explain", "Apply", "Ignore"
 - [ ] T-033 Diffing · created:2026-10-29
 - [ ] T-034 Actions: "Regenerate", "Explain", "Apply", "Ignore" · created:2026-10-29
 - [ ] T-035 Consider userId in query keys · created:2026-10-29
@@ -69,9 +69,9 @@
 ## 0.5.0
 
 - [ ] T-040 Language Practice Reminders: Send notifications encouraging users to engage in language practice with their saved characters. · created:2026-10-29
-  - [ ] T-055 Daily/week reminders to keep users practicing
-  - [ ] T-056 Push Notifications: Reminders and encouragement to practice regularly
-  - [ ] T-057 Add to terms that we can send email notifying messages of characters (after off-line daily)
+  - [ ] T-200 Daily/week reminders to keep users practicing
+  - [ ] T-201 Push Notifications: Reminders and encouragement to practice regularly
+  - [ ] T-202 Add to terms that we can send email notifying messages of characters (after off-line daily)
 - [ ] T-041 Daily/week reminders to keep users practicing · created:2026-10-29
 - [ ] T-042 Push Notifications: Reminders and encouragement to practice regularly · created:2026-10-29
 - [ ] T-043 Add to terms that we can send email notifying messages of characters (after off-line daily) · created:2026-10-29
